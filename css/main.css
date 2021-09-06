@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+#pandemicStart{
+    display: flex;
+}
+
+#pandemicEnd{
+    display: flex;
+}
+.partRed {
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear(1.0,0.5,0.25,1.0);
+    animation-duration: 1s;
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear(1.0,0.5,0.25,1.0);
+    -webkit-animation-duration: 1s;
+  }
+  @keyframes blinker {
+    from { opacity: 1.0; }
+    to { opacity: 0.2; }
+  }
+   
+  @-webkit-keyframes blinker {
+    from { opacity: 1.0; }
+    to { opacity: 0.2; }
+  }
