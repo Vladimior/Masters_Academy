@@ -1,2 +1,2 @@
-# H1 Masters Academy Test
-#### H4 Test performed by Vladimir Khrushch
+# Masters Academy Test
+#### Test performed by Vladimir Khrushch
