@@ -1,2 +1,2 @@
 # Masters Academy Test
-#### Test performed by Vladimir Khrushch
+#### Test performed by Volodymyr Khrushch
